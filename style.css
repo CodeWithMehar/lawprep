@@ -1,0 +1,211 @@
+.header{
+padding: 15px 0px;
+background-color: #101828 !important;
+}
+.menu>li>a{
+    margin:0px 10px;
+}
+.logo img{
+    width: 150px;
+    padding-left: 50px;
+    margin-right: 40px;
+}
+.form{
+    background-color: #101828;
+
+}
+.form h5,p{
+    color: white;
+}
+#dropdown{
+    width: 100%;
+    outline: none;
+    border: none;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   padding: 7px;
+}
+.btn{
+    width: 100%;
+    background-color: rgb(202, 5, 38) !important;
+    outline: none !important;
+    border: none !important;
+}
+.btn:hover{
+    background-color: rgb(85, 1, 15) !important;
+}
+.member{
+    border:1px solid black;
+border-radius: 10px;
+
+}
+.member:hover{
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.1) !important;
+}
+.law{
+    background-color: rgb(2, 2, 72);
+    color: white;
+    
+}
+.examrow{
+    justify-content: space-around;
+    display: flex;
+
+}
+.exam{
+       background: linear-gradient(to bottom left, #ffffcc 0%, #ffffff 60%);
+    background-image: url('img11.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   color: black;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.exam:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.exam h5{
+    line-height: 40px;
+
+}
+.law{
+    background-color:#101525;
+}
+.law-items{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background: url("img/img11.webp");
+  background-position: center;
+    background-size: cover;
+}
+
+.law-overly{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(106.78deg, #ffefab 10.51%, #f1c4c4 80.72%);
+    transition: all .5s;
+    position: absolute;
+}
+
+.law-items:hover .law-overly{
+    opacity: 0;
+}
+
+.law-overly h3{
+    text-align: right;
+    padding: 20px;
+}
+
+.law-content{
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 20px;
+    z-index: 99;
+    padding-left: 20px;
+}
+
+.law-items button{
+background-color: white;
+color: grey;
+border: none;
+margin: 5px;
+    padding: 8px 30px;
+}
+
+.button button{
+padding: 10px 15px;
+outline: none;
+border: none;
+border-radius: 10px;
+margin-bottom: 5px;
+}
+.news-img img{
+    width: 100%;
+}
+.news-img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}
+.news-img2 img{
+    width: 100%;
+}
+.news-img2 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}
+.btn2{
+
+    width: 15% !important;
+        margin: auto !important;
+        background-color: transparent !important;
+        color: red !important;
+        border: 2px solid red !important;
+        border-radius: 8px !important;
+
+}
+.btn2:hover{
+    color: white !important;
+    background-color: red !important;
+}
+.teamcontent{
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+.student{
+    background-color: rgb(14, 21, 35);
+}
+.studentitems {
+    position: relative;
+    border-right: 0.1px solid rgb(79, 78, 78);
+    border-top: 0.2px solid rgb(79, 78, 78);
+    border-left: 0.2px solid rgb(78, 76, 76);
+    
+}
+.studentitems img{
+    width: 220px;
+    height: 300px;
+}
+.studentitems img.play{
+    width: 50px;
+  
+   position: absolute;
+   left: 40%;
+   top: 20%;
+}
+.studentitems img.play:hover{
+    transform: scale(1.2);
+    transition: 1s;
+   cursor: pointer;
+}
+.faq{
+    background-color: #F1F1F1;
+}
+.f-logo img{
+    width: 150px;
+}
+.foter1{
+    background-color: #101828;
+}
+.foter2{
+    border-top: 0.1px solid rgb(100, 98, 98);
+    background-color: #101828;
+    padding-top: 30px;
+    color: #D9F1FF;
+}
+.icon{
+    padding-left: 70%;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    color: #D9F1FF;
+}
